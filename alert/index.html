@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert a11y example</title>
+    <link rel="stylesheet" href="alert.css">
+</head>
+
+<body>
+    <button type="button" id="alert-trigger">Trigger Alert</button>
+    <!-- role="alert" is added to the div and the below alert-template 
+         will be appended to the div via script on button click -->
+    <div id="example" role="alert"></div>
+    <script type="text/template" id="alert-template">
+     <p>Hello</p>
+    </script>
+    <script src="./alert.js"></script>
+</body>
+
+</html>
