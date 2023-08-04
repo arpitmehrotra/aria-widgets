@@ -4,3 +4,4 @@ The examples here are taken from the ARIA Authoring Practice Guide and it covers
 
 1. [Alert](./alert/)
 2. [Button](./button/)
+3. [Carousel](./carousel)
